@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+ background: black;  
+}
+canvas{
+   border: solid white 2px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#mapImage, #avionImage{
+   display: none;
+} 
